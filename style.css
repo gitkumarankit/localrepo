@@ -1,12 +1,53 @@
-p {
-    color: red;
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f7fb;
 }
 
-body {
-  background-color: lightblue;
-  color: navy;
+/* HEADER */
+
+.header{
+display:flex;
+justify-content:space-between;
+align-items:center;   /* yaha change kiya */
+padding:20px 50px;
+background:white;
+border-bottom:3px solid #0070ba;
 }
-h1 {
-  text-align: center;
-  color: maroon;
+
+/* LOGO */
+
+.logo h1{
+margin:0;
+color:#003087;
+font-size:32px;
+}
+
+/* NAVBAR */
+
+.nav ul{
+list-style:none;
+display:flex;
+gap:15px;
+margin:0;
+padding:0;
+}
+
+/* BUTTON STYLE */
+
+.nav button{
+background:#0070ba;
+color:white;
+border:none;
+padding:10px 20px;
+border-radius:20px;
+cursor:pointer;
+font-size:14px;
+transition:0.3s;
+}
+
+.nav button:hover{
+background:white;
+color:#0070ba;
+border:2px solid #0070ba;
 }
